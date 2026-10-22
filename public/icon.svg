@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="afyaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="128" fill="url(#afyaGrad)"/>
+
+  <!-- Subtle ring decoration -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#34d399" stroke-width="4" stroke-opacity="0.25"/>
+
+  <!-- Lotus / Brain / Healing Emblem -->
+  <g transform="translate(256, 240) scale(1.15)" filter="url(#shadow)">
+    <!-- Central Brain Heart -->
+    <path d="M0,70 C-90,0 -130,-70 -90,-120 C-60,-155 -10,-150 0,-100 C10,-150 60,-155 90,-120 C130,-70 90,0 0,70 Z" fill="#ffffff" fill-opacity="0.95"/>
+    
+    <!-- Organic Healing Leaf 1 -->
+    <path d="M-50,-30 C-110,-60 -130,-120 -80,-140 C-40,-130 -30,-80 -50,-30 Z" fill="#34d399" fill-opacity="0.85"/>
+    
+    <!-- Organic Healing Leaf 2 -->
+    <path d="M50,-30 C110,-60 130,-120 80,-140 C40,-130 30,-80 50,-30 Z" fill="#34d399" fill-opacity="0.85"/>
+
+    <!-- Calming Sun / Center Anchor -->
+    <circle cx="0" cy="-60" r="22" fill="#fbbf24"/>
+  </g>
+
+  <!-- Title Text: 2036 -->
+  <text x="256" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="4">
+    AFYAMIND 2036
+  </text>
+</svg>

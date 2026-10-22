@@ -1,0 +1,5 @@
+# Allow all search engine crawlers (Googlebot, Bingbot, Play Store indexing bots)
+User-agent: *
+Allow: /
+
+Sitemap: /sitemap.xml

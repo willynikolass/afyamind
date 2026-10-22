@@ -1,0 +1,90 @@
+{
+  "id": "https://afyamind2036.app/",
+  "name": "AfyaMind 2036 — Mental Wellness & Peer Support",
+  "short_name": "AfyaMind 2036",
+  "description": "Kenya’s 2036 Mental Health Initiative founded by Nikolass Willy Mtunga. Evidence-based CBT journaling, panic breathing, peer circles, and M-Pesa micro-access.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#FAF9F6",
+  "theme_color": "#064e3b",
+  "lang": "en-KE",
+  "dir": "ltr",
+  "categories": ["health", "medical", "lifestyle", "productivity", "social"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-screenshot.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "AfyaMind 2036 Mobile Mental Wellness Dashboard"
+    },
+    {
+      "src": "/screenshots/desktop-screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "AfyaMind 2036 Desktop Portal & Guided CBT Suite"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Write Journal",
+      "short_name": "Journal",
+      "description": "Record private thoughts and CBT reflections",
+      "url": "/?tab=journal",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Log Daily Mood",
+      "short_name": "Mood",
+      "description": "Check in with your nervous system and emotional pulse",
+      "url": "/?tab=mood",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Stress Breathing",
+      "short_name": "Breathing",
+      "description": "Instant 4-7-8 and Box Breathing relief",
+      "url": "/?tab=exercises",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Vision 2036 Manifesto",
+      "short_name": "Manifesto",
+      "description": "Read the official 2036 Mental Health Declaration",
+      "url": "/?tab=manifesto",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}

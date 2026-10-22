@@ -1,0 +1,6 @@
+{
+  "name": "AfyaMind — Mental Wellness & Peer Support",
+  "description": "A privacy-first mental wellness and peer-support platform with guided journaling, stress exercises, mood tracking, qualified counsellors, and crisis safety.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
